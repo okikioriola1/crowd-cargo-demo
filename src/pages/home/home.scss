@@ -1,0 +1,183 @@
+.home{
+    padding: 1rem 0.8rem;
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            .top{
+                h2{
+                    color: rgba(16, 10, 44, 0.80);
+                    font-family: "Chillax";
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin: 0.2rem 0;
+                }
+
+            }
+            .bottom{
+                display: flex;
+                gap: 1rem;
+                position: relative;
+                h3{
+                    color:  rgba(16, 10, 44, 0.50);
+                    font-family: "Chillax";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    gap:0.5rem;
+
+                }
+                .active-tab{
+                    color: #100A2C;
+                }
+
+            }
+        }
+        .right{
+            &__wrapper{
+                border-radius: 255.763px;
+                background: #100A2C;
+                box-shadow: 0px 11.6923px 45.09886px 0px rgba(0, 0, 0, 0.08);
+                display: flex;
+                align-items: center;
+                gap: 0.6rem;
+                padding: 0.3rem 1.7rem;
+                .text{
+                    h2{
+                        font-family: "Chillax";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        color: #fff;
+
+                    }
+
+                }
+                .badge{
+                    border-radius: 18.416px;
+                    background: rgba(255, 255, 255, 0.30);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 36.832px;
+                    height: 36.832px;
+                    h2{
+                        font-family: "Chillax";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .home-search{
+        position: relative;
+        width: 100%;
+        margin:1.5rem auto;
+
+        form{
+        position: relative;
+
+            .search-icon{
+                position: absolute;
+                top: 27%;
+                padding: 0 1rem;
+            }
+            .search-input{
+                color: rgba(16, 10, 44, 0.50);
+                font-family: "Chillax";
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 24px;
+                border-radius: 8px;
+                background: transparent;
+                border: 1px solid #E3E3E3;
+                height: 35px;
+                padding:0 3rem;
+                outline: none;
+                width: 90%;
+                margin: auto;
+            }
+
+        }
+
+    }
+    .main-home-page{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        background-color: #fff;
+        .left{
+            flex-basis: 20%;
+
+            .left-header{
+                margin: 1rem 2rem;
+                padding: 0.5rem 0;
+                h2{
+                   color: rgba(16, 10, 44, 0.80);
+                    font-family: "Chillax";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+        }
+        .right{
+            flex-basis: 80%;
+            .maps-section{
+                width: 100%;
+                margin: 6rem auto;
+                img{
+                    width: 95%;
+                    object-fit: cover;
+                }
+            }
+            .pills-section{
+                width: 100%;
+                margin: 3rem 0;
+                .pills-wrapper{
+                    display: flex;
+                    gap: 3rem;
+                    button{
+                        color: rgba(16, 10, 44, 0.50);
+                        font-family: "Chillax";
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 14.19px;
+                        border-radius: 13.177px;
+                        border: 1.014px solid  #F2F3F5;
+                        outline: none;
+                        padding: 0.4rem 0.8rem;
+
+                    }
+                    .active-pill{
+                        background-color: #100A2C;
+                        color: #fff;
+                    }
+                }
+            }
+            .delivery-details-section{
+                margin: 0 0.8rem 0 0;
+            }
+
+        }
+    }
+}

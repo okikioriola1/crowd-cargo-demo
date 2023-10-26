@@ -1,0 +1,158 @@
+.card{
+    // width: 90%;
+    width: 333px;
+    // margin: auto;
+    margin: 1rem 1rem;
+    background: #fff;
+    border-radius: 8px;
+    border: 0.5px solid  #F2F3F5;
+    box-shadow: 0px 7.75772px 25.85906px 0px rgba(162, 161, 183, 0.10);
+    &__wrapper{
+        padding: 1rem 0.5rem;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            h2{
+                color: rgba(16, 10, 44, 0.80);
+                font-family: "Chillax";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+
+            }
+            h4{
+                color: #24AD42;
+                font-family: "Chillax";
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -0.2px;
+
+            }
+        }
+        .delivery-info{
+            display: flex;
+            gap: 1rem;
+            margin:0.5rem 0 1rem 0;
+            .info{
+                display: flex;
+                gap:0.2rem;
+                align-items: center;
+                h4{
+                color: rgba(16, 10, 44, 0.80);
+                font-family: "Chillax";
+                font-size: 8px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: capitalize;
+                }
+            }
+            .express{
+                h4{
+                    color:#24AD42;
+                }
+            }
+            .amount{
+                h4{
+                    color: #100A2C;
+                }
+            }
+        }
+        .time-place{
+            display: flex;
+            gap:1rem;
+            .time{
+                h4{
+                    color: rgba(16, 10, 44, 0.30);
+                    font-family: "Chillax";
+                    font-size: 9px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 14.264px;
+                    letter-spacing: -0.095px;
+                    margin: 0;
+
+                }
+            }
+            .place{
+                display: flex;
+                .where{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h4{
+                        color: #100A2C;
+                        font-family: "Chillax";
+                        font-size: 9px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 14.264px; 
+                        letter-spacing: -0.095px;
+                        margin: 0;
+                    }
+                    h5{
+                        color:  rgba(16, 10, 44, 0.30);
+                        font-family: "Chillax";
+                        font-size: 9px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 14.264px;
+                        letter-spacing: -0.095px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            margin-top:0.6rem;
+            align-items: center;
+
+            .price{
+                h2{
+                    color: rgba(16, 10, 44, 0.30);
+                    font-family: "Chillax";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 15px; 
+                    letter-spacing: -0.36px;
+                    .amount{
+                        color: #100A2C;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .fragile{
+                &__wrapper{
+                    border-radius: 20px;
+                    background: rgba(235, 111, 39, 0.10);
+                    padding:0 0.8rem;
+
+                    h4{
+                      color:  #EB6F27;
+                        text-align: center;
+                        font-family: "Chillax";
+                        font-size: 8px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 12px;
+                        text-align: center;
+                        margin: 0;
+                        padding:3px 0;
+                    }
+
+
+                }
+            }
+        }
+
+
+
+    }
+}

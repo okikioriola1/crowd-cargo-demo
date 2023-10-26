@@ -1,0 +1,160 @@
+.delivery-card{
+    border-radius: 8.109px;
+    border: 0.5px solid #F2F3F5;
+    background: #FFF;
+
+
+
+
+    &__wrapper{
+        padding: 1rem 1.5rem;
+        .delivery-tabs{
+            
+            .ant-tabs-tab-btn {
+                color:  rgba(16, 10, 44, 0.50);
+                font-family: "Chillax";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .ant-tabs-tab-active{
+                .ant-tabs-tab-btn{
+                    color:  #100A2C;
+                }
+
+            }
+            .ant-tabs-ink-bar{
+                background:  #100A2C;
+            }
+            .ant-tabs-nav-wrap {
+                justify-content: flex-start !important;
+            }
+        
+        }
+
+
+        .card-details{
+            .card-details-header{
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                margin: 1.5rem 0;
+                h2{
+                    color: #100A2C;
+                    font-family: "Chillax";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                button{
+                    border-radius: 10px;
+                    color: #100A2C;
+                    background: #F2F3F5;
+                    font-family: "Chillax";
+                    font-size: 8.109px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 12.163px;
+                    outline: none;
+                    border: none;
+                    padding:5px;
+                }
+
+
+            }
+            .delivery-info{
+                .top{
+                    display: flex;
+                    justify-content: space-between;
+                    .info{
+                        h2{
+
+                        color: rgba(16, 10, 44, 0.30);
+                        font-family: Chillax;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                        }
+                        h3{
+                            color: #100A2C;
+                            font-family: "Chillax";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+
+                        }
+                    }
+
+                }
+                .bottom{
+                    display: flex;
+                    justify-content: space-between;
+                    .info{
+                        h2{
+
+                        color: rgba(16, 10, 44, 0.30);
+                        font-family: Chillax;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                        }
+                        h3{
+                            color: #100A2C;
+                            font-family: "Chillax";
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+
+                        }
+                    }
+
+                }
+            }
+            .progress{
+                margin: 2rem 0;
+                .progress-steps{
+                    .ant-steps-item-title {
+                        color:  #100A2C;
+                        text-align: center;
+                        font-family: "Chillax";
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    .ant-steps-item-description{
+                        color:  #100A2C;
+                        font-family: "Chillax";
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 15px; /* 125% */
+                        letter-spacing: -0.36px;
+                    }
+                    .ant-steps-item-finish .ant-steps-item-icon {
+                        background-color:  #100A2C;
+                    }
+                    .ant-steps-item-finish .ant-steps-item-icon >.ant-steps-icon {
+                        color: #fff;
+                    }
+                    .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-tail::after {
+                        background-color: #100A2C;
+                    }
+                    .ant-steps-item-process .ant-steps-item-icon {
+                        background-color: #100A2C;
+                        border: #100A2C;
+                    }
+
+                }
+            }
+        }
+    }
+}

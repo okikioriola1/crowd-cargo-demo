@@ -1,0 +1,127 @@
+.verification-page{
+    .nav-logo{
+        display: flex;
+        justify-content: flex-start;
+        padding:2rem;
+    }
+
+    .verify-main{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+        .verify-main-wrapper{
+
+            .verify-header{
+                h2{
+                    color: #100A2C;
+                    font-family: "Chillax";
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-align: center;
+                }
+                h4{
+                    color:  rgba(16, 10, 44, 0.50);
+                    font-family: "Chillax";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+            .verify-otp-container{
+
+                .otp-inputs{
+                    margin: 2rem 0;
+                    input{
+                        border-radius: 22.56px;
+                        border: 1px solid  #E3E3E3;
+                        background:  #FFF;
+                        width: 90.24px;
+                        height: 90.24px;
+                        margin: 0 2rem;
+                        text-align: center;
+                        font-family: "Chillax";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        &:focus {
+                            border-color: #100A2C;
+                          }
+                    }
+                }
+                .verify-btn{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin:3rem 0;
+                    a{
+                        width: 80%;
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .verify{
+
+                        border-radius: 42.9px;
+                        border: 1px solid  #100A2C;
+                        background-color: #100A2C;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Chillax";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        width:60%;
+                        padding: 1.3rem 0;
+                        cursor:pointer;
+                    }
+
+                }
+                .code{
+                    .text{
+                        h4{
+                            color:  rgba(16, 10, 44, 0.50);
+                            font-family: "Chillax";
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            text-align: center;
+                            margin: 0;
+
+                        }
+
+                    }
+                    .resend{
+                        display: flex;
+                        justify-content: center;
+                        margin: 2rem 0;
+                        button{
+                            border-radius: 56.4px;
+                            background:  #F9F9FB;
+                            color: #100A2C;
+                            font-family: "Chillax";
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            padding:10px;
+                            outline: none;
+                            border:1px solid #F9F9FB
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

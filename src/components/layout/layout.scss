@@ -1,0 +1,12 @@
+.full-page{
+    display: flex;
+    .sidebar{
+        flex-basis: 20%;
+        
+    }
+    .main-page{
+        flex-basis: 80%;
+        background: #F9F9FB;
+    }
+
+}
