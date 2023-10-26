@@ -7,24 +7,26 @@ import Verification from "../pages/verification/index";
 // const Home = lazy(() => import("../pages/home/index"));
 // const Login = lazy(() => import("../pages/login/index"));
 
+interface RouteItem {
+    path: string;
+    exact: boolean;
+    component: React.FC; // Or your specific component type
+  }
 
-const routes = [
+const routes: RouteItem[] = [
     {
       path: "/dashboard",
       component: WithDashboardLayout(Home),
-      protected: false,
       exact: true,
     },
     {
         path: "/",
         component: Login,
-        protected: false,
         exact: true,
       },
       {
         path: "/verify",
         component: Verification,
-        protected: false,
         exact: true,
       }
 

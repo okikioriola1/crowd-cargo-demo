@@ -62,7 +62,7 @@ const Sidebar = () => {
         <div className='sidebar__wrapper'>
             <ul className='sidebar-links-wrapper'>
                 {sideBarRoutes.map((item,index)=>(
-                    <li key={item?.name} className={`links-wrapper ${item.name==='Users'?'bg-blue' : item.name==='Logout'?'logout-class': ''}`}>
+                    <li key={index} className={`links-wrapper ${item.name==='Users'?'bg-blue' : item.name==='Logout'?'logout-class': ''}`}>
                         <a href='#'><img src={item?.icon} alt="menu-icon"/> <span className="menu-name">{item?.name}</span></a>
                     </li>
                 ))}

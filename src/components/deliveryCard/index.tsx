@@ -69,7 +69,7 @@ const DeliveryCardDetails =()=>{
 }
 
 const DeliveryCard = () => {
-    const Tabitems: TabsProps["Tabitems"] = [
+    const Tabitems: TabsProps[] = [
         {
           key: "1",
           label: `Delivery Details`,
