@@ -1,20 +1,10 @@
 import * as React from 'react'
-import { Tabs, TabsProps, Steps, StepsProps } from "antd";
+import { Tabs, TabsProps, Steps } from "antd";
 
 import './delivery-card.scss'
 
 const DeliveryCardDetails =()=>{
-    const customDot: StepsProps['progressDot'] = (dot) => (
-        
-            <>
-            {dot}
-            </>
-            
 
-        
-       
-       
-      );
     const items = [
         {
           title: 'Booked',

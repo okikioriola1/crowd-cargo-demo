@@ -19,6 +19,18 @@ body {
 
 
 
-@media (prefers-color-scheme: light) {
+.mobile-view{
+  display: none;
+}
+@media (max-width: 780px){
+  .desktop-view{
+    display: none;
 
+  }
+  .mobile-view{
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+  }
+ 
 }
